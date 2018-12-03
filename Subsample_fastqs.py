@@ -11,7 +11,7 @@ fastq_file_read2 = sys.argv[2]
 try:
     percent_sampled = float(sys.argv[3])
 except ValueError:
-    raise ("Percent to sample (second argument) "
+    raise ("Percent to sample (third argument) "
            "needs to be a number so it can be turned into a float")
 
 
